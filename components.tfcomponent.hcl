@@ -31,7 +31,6 @@ component "vpc" {
   }
 }
 
-# FIXED: Added the required 'type' argument for Stacks output structure
 output "vpc_id" { 
   type        = string
   value       = component.vpc.vpc_id 
